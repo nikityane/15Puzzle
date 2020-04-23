@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../styles/P-V.css">
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+
+  <body>
+    
+    <div class="field">
+
+      <div id="curve_chart" style="width: 900px; height: 650px"></div>
+    
+    <div class="inputValue">
+               <p><label for="victimFertility">Рождаемость жертв: </label>
+              <input type="text" id="victimFertility" value="100"></br>
+              <label for="victimMortality">Смертность жертв: </label>
+              <input type="text" id="victimMortality" value="300"></br>
+              <label for="predatorMortality">Смертность хищников: </label>
+              <input type="text" id="predatorMortality" value="70"></br>
+              <label for="predation">Хищничество: </label>
+              <input type="text" id="predation" value="80"></br>
+              <label for="generation">Поколение: </label>
+              <input type="text" id="generation" value="500"></br>
+              <label for="numberOfVictims">Чило жертв: </label>
+              <input type="text" id="numberOfVictims" value="1000"></br>
+              <label for="numberOfPredators">Чило хищников: </label>
+              <input type="text" id="numberOfPredators" value="100"></br></p>
+              <button id="start">Start</button>
+    </div>
+
+    </div>
+    <script src="../js/P-V.js" type="text/javascript"></script>
+  
+  </body>
+
+</html>

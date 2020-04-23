@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; }
+  body {
+	text-align: center;
+	justify-content: center;
+	}
+.field div{
+	height: all;
+	width: all;
+	
+		
+}
+.field {
+	display: inline-block;
+}
+.inputValue {
+	width: 750px;
+	height: all;
+	align-items: center;
+	justify-content: center;
+}
+
+
+p {
+	align-items: center;
+	text-align: right;
+	width: all;
+	margin-top: 5px;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+input {
+	margin-bottom: 5px;
+}

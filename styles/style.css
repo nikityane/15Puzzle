@@ -1,0 +1,46 @@
+body {
+    font-size: 30px;
+    font-family: monospace;
+    line-height: 30px;
+  }
+
+table {
+	background-color: white;
+	border: 1px solid black;
+	height: 400px;
+	width: 400px;
+}
+
+.game {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.myTBL td {
+	text-align: center;
+	font-size: 30px;
+	height: 100px;
+	width: 100px;
+	border: 1px solid grey;
+}
+
+.button {
+	font-size: 20px;
+	height: 30px;
+	width: 150px;
+}
+
+.click {
+	background-color: #d3d3d3;
+}
+
+.header	{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#moves, #timer{
+	width: 400px;
+}

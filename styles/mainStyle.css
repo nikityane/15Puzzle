@@ -1,0 +1,51 @@
+body
+{
+    margin: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #040813;
+}
+.head
+{
+    background: #2D6BA4;
+    border: solid 4px #00d0ff;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Calibri";
+    font-size: 20pt;
+    text-align: center;
+    color: black;
+
+}
+.containes
+{
+    background: #2D6BA4;
+    padding: 15px;
+    border: solid 4px #00d0ff;
+    font-family: "Calibri";
+    font-size: 14pt;
+}
+summary
+{    
+    padding: 12px;
+    margin-bottom: 5px;
+    background-color: #040813;
+    border-radius: 25px;
+    color: #00d0ff;
+}
+blockquote
+{
+    text-align: right;
+    font-style: oblique;
+}
+
+a {
+    color: #00d0ff; /* Цвет обычной ссылки */ 
+    text-decoration: none;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+}
